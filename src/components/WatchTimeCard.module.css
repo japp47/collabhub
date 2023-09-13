@@ -1,0 +1,36 @@
+.b,
+.last30Days,
+.watchTimeHours {
+  position: absolute;
+  height: 12.18%;
+  width: 54.05%;
+  top: 17.26%;
+  left: 5.22%;
+  display: inline-block;
+}
+.b,
+.last30Days {
+  height: 14.84%;
+  width: 27.93%;
+  top: 45.31%;
+  left: 5.17%;
+  font-size: var(--font-size-base);
+}
+.last30Days {
+  height: 9.38%;
+  width: 41.03%;
+  top: 75.78%;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+}
+.card {
+  position: absolute;
+  top: 29px;
+  left: 528px;
+  width: 383px;
+  height: 197px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

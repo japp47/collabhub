@@ -1,0 +1,81 @@
+.card1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+}
+.div,
+.last30Days,
+.totalIncome {
+  position: absolute;
+  top: 17.19%;
+  left: 5.17%;
+  font-weight: 500;
+}
+.div,
+.last30Days {
+  top: 45.31%;
+  font-size: var(--font-size-base);
+  font-weight: 800;
+}
+.last30Days {
+  top: 75.78%;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+  color: var(--color-gray-300);
+}
+.figpieIcon {
+  position: absolute;
+  height: 101.56%;
+  width: 101.57%;
+  top: -0.78%;
+  right: -0.78%;
+  bottom: -0.78%;
+  left: -0.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.mobile {
+  top: 62.5%;
+  left: 59.55%;
+  font-weight: 300;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.chart,
+.mobile,
+.other {
+  position: absolute;
+}
+.other {
+  top: 48.44%;
+  left: 20.37%;
+  font-weight: 300;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.chart {
+  height: 50%;
+  width: 22%;
+  top: 25%;
+  right: 9.03%;
+  bottom: 25%;
+  left: 68.97%;
+  font-size: var(--font-size-9xs);
+  color: var(--color-white);
+}
+.card {
+  width: 290px;
+  height: 128px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

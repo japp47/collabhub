@@ -1,0 +1,216 @@
+.heading2 {
+  position: relative;
+  line-height: 44px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 725px;
+}
+.div {
+  position: absolute;
+  top: 19px;
+  left: 27.5px;
+  line-height: 39.2px;
+  font-weight: 500;
+}
+.divtabSlidesItemNumber {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--color-orangered-100);
+  width: 70px;
+  height: 611.53px;
+}
+.lahinch20home20sml5x1png,
+.lahinch20home20sml5x1pngIcon {
+  position: absolute;
+  border-radius: var(--br-21xl) var(--br-21xl) var(--br-8xs) var(--br-21xl);
+}
+.lahinch20home20sml5x1pngIcon {
+  width: calc(100% - 85px);
+  top: calc(50% - 141.44px);
+  right: 37px;
+  left: 48px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 279px;
+  object-fit: cover;
+}
+.lahinch20home20sml5x1png {
+  width: 100%;
+  top: calc(50% - 223.35px);
+  right: 0;
+  left: 0;
+  height: 382px;
+  background-image: url(/public/lahinch20home20sml5x1png@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.johnDoeCeo {
+  position: absolute;
+  top: 362px;
+  left: 34.5px;
+  line-height: 36.4px;
+  display: flex;
+  align-items: center;
+  width: 173px;
+}
+.divtabSlidesItemContentM {
+  position: absolute;
+  height: calc(100% - 60px);
+  width: calc(100% - 623px);
+  top: 30px;
+  right: 623px;
+  bottom: 30px;
+  left: 0;
+}
+.vectorIcon {
+  position: relative;
+  width: 23.5px;
+  height: 21px;
+  object-fit: cover;
+}
+.iCouldntBelieve,
+.svg {
+  position: absolute;
+  display: flex;
+}
+.svg {
+  top: 0;
+  left: calc(50% - 291.5px);
+  width: 24px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-0) 0.4200992286205292px var(--padding-0)
+    0.08398439735174179px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iCouldntBelieve {
+  top: 39px;
+  left: 24.5px;
+  line-height: 36.4px;
+  font-weight: 500;
+  align-items: center;
+  width: 563px;
+}
+.divtabSlidesItemQuote {
+  position: absolute;
+  height: calc(100% - 60px);
+  width: calc(100% - 422px);
+  top: 30px;
+  right: 0;
+  bottom: 30px;
+  left: 422px;
+  font-size: var(--font-size-6xl);
+}
+.divtabSlidesItemContentW {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 1005px;
+  height: 506.69px;
+}
+.divtabSlidesItemContent {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  background-color: var(--color-orangered-100);
+  width: 1045px;
+  height: 611.53px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.testimonials {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1102.56px;
+  overflow: hidden;
+}
+.div1 {
+  position: relative;
+  line-height: 39.2px;
+  font-weight: 500;
+}
+.divtabSlidesItemNumber1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--color-darkslategray-400);
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lgi) 26.84000015258789px 552.530029296875px
+    25.15999984741211px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 1102.56px;
+  background-color: var(--color-orangered-100);
+  width: 69.22px;
+  overflow: hidden;
+}
+.divtabSlidesItemNumber2 {
+  position: absolute;
+  width: calc(100% - 0.22px);
+  top: calc(50% - 305.77px);
+  right: 0.22px;
+  left: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--color-orange);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lgi) 25.139999389648438px 552.530029296875px
+    25.860000610351562px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 1171.78px;
+  background-color: var(--color-darkslategray-400);
+  width: 69.22px;
+  overflow: hidden;
+  color: var(--color-darkslategray-400);
+}
+.testimonialsParent {
+  position: relative;
+  width: 1241px;
+  height: 611.53px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-whitesmoke-200);
+}
+.tetimonials {
+  position: absolute;
+  top: 3679px;
+  left: 0;
+  width: 1440px;
+  height: 1049px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-61xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-inter);
+}

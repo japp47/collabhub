@@ -1,0 +1,43 @@
+.art,
+.loginArt {
+  align-self: stretch;
+  display: none;
+}
+.loginArt {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.art {
+  width: 816px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainContainer {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 864px);
+  background-color: var(--color-seashell);
+  width: 1728px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-99xl);
+}
+.desktopSignup2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1081px;
+  overflow: hidden;
+}

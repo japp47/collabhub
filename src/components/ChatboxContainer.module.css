@@ -1,0 +1,256 @@
+.chatboxChild,
+.circularChipChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.chatboxChild {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray-300);
+  border: 5px solid var(--color-darkslategray-300);
+  width: 382px;
+  height: 127px;
+}
+.circularChipChild {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xl);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.18) inset;
+  border: 2px solid var(--color-black);
+}
+.usearchIcon {
+  position: absolute;
+  height: 75%;
+  width: 7.79%;
+  top: 12.5%;
+  right: 87.01%;
+  bottom: 12.5%;
+  left: 5.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.circularChip {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  width: 334px;
+  height: 38px;
+}
+.transferOptionChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+}
+.uuserIcon {
+  position: absolute;
+  height: 57.14%;
+  width: 9.94%;
+  top: 21.43%;
+  right: 79.39%;
+  bottom: 21.43%;
+  left: 10.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.mathew {
+  position: absolute;
+  width: 74.15%;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.instantTransferBetween {
+  margin: 0;
+}
+.instantTransferBetweenContainer {
+  position: absolute;
+  width: 98.86%;
+  top: 42.86%;
+  left: 1.14%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-300);
+  display: inline-block;
+}
+.mathewParent {
+  position: absolute;
+  height: 75%;
+  width: 54.55%;
+  top: 12.5%;
+  right: 19.87%;
+  bottom: 12.5%;
+  left: 25.58%;
+}
+.transferOption {
+  position: absolute;
+  top: 89px;
+  left: 26px;
+  width: 322px;
+  height: 56px;
+}
+.transferOptionItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslategray-300);
+}
+.uusersAltIcon {
+  position: absolute;
+  height: 57.14%;
+  width: 9.94%;
+  top: 28.57%;
+  right: 79.39%;
+  bottom: 14.29%;
+  left: 10.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.instantTransferTo,
+.jessy {
+  position: absolute;
+  display: inline-block;
+}
+.jessy {
+  width: 88.63%;
+  top: 0;
+  left: 0.33%;
+  font-weight: 500;
+}
+.instantTransferTo {
+  width: 100%;
+  top: 42.86%;
+  left: 0;
+  font-size: var(--font-size-3xs);
+}
+.jessyParent {
+  position: absolute;
+  height: 75%;
+  width: 46.27%;
+  top: 12.5%;
+  right: 28.15%;
+  bottom: 12.5%;
+  left: 25.58%;
+}
+.transferOption1 {
+  position: absolute;
+  top: 153px;
+  left: 26px;
+  width: 322px;
+  height: 56px;
+  color: var(--color-white);
+}
+.ram {
+  position: absolute;
+  top: 0;
+  left: 0.33%;
+  font-weight: 500;
+}
+.transferToYour {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-300);
+}
+.ramParent {
+  position: absolute;
+  height: 53.57%;
+  width: 46.89%;
+  top: 23.21%;
+  right: 27.52%;
+  bottom: 23.21%;
+  left: 25.58%;
+}
+.transferOption2,
+.transferOption3 {
+  position: absolute;
+  top: 217px;
+  left: 26px;
+  width: 322px;
+  height: 56px;
+}
+.transferOption3 {
+  top: 281px;
+}
+.transferOption4,
+.transferOption5,
+.transferOption6,
+.transferOption7 {
+  position: absolute;
+  top: 345px;
+  left: 26px;
+  width: 322px;
+  height: 56px;
+}
+.transferOption5,
+.transferOption6,
+.transferOption7 {
+  top: 409px;
+}
+.transferOption6,
+.transferOption7 {
+  top: 537px;
+}
+.transferOption7 {
+  top: 473px;
+}
+.circularChipParent {
+  position: absolute;
+  top: 66px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 382px;
+  height: 674px;
+  overflow: hidden;
+}
+.chatbox,
+.chats {
+  position: absolute;
+}
+.chats {
+  top: 16px;
+  left: 49px;
+  font-size: var(--font-size-11xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 284px;
+  height: 38px;
+}
+.chatbox {
+  top: 74px;
+  left: 59px;
+  width: 382px;
+  height: 740px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,41 @@
+.requests {
+  position: absolute;
+  top: 20px;
+  left: 637px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 281px;
+  height: 74px;
+}
+.image20Icon,
+.image20Wrapper {
+  position: absolute;
+  width: 116px;
+  height: 103px;
+}
+.image20Icon {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.image20Wrapper {
+  top: 10px;
+  left: 521px;
+  display: none;
+}
+.requestsParent {
+  position: absolute;
+  top: 185px;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 1440px;
+  height: 113px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

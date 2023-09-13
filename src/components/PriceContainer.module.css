@@ -1,0 +1,80 @@
+.seeThePrice1 {
+  position: relative;
+  line-height: 22.4px;
+}
+.seeThePriceWrapper {
+  position: absolute;
+  top: calc(50% + 44.31px);
+  left: calc(50% - 217px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-orangered-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.letsBuildYour {
+  margin: 0;
+}
+.letsBuildYourContainer {
+  position: absolute;
+  top: -9.87px;
+  left: 47px;
+  line-height: 52.5px;
+  font-weight: 600;
+  display: none;
+}
+.letsWorkTogetherContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.letsWorkTogetherContainer {
+  position: absolute;
+  height: 46%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 52.5px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  position: relative;
+  width: 528px;
+  height: 182.63px;
+}
+.illustration1pngIcon {
+  position: relative;
+  width: 495px;
+  height: 249.08px;
+  object-fit: cover;
+}
+.divflexWrapper,
+.seeThePrice {
+  align-items: center;
+  justify-content: center;
+}
+.divflexWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.seeThePrice {
+  position: absolute;
+  top: 4728px;
+  left: calc(50% - 720px);
+  background-color: var(--color-darkslategray-400);
+  width: 1440px;
+  height: 530px;
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-76xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,217 @@
+.balanceChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 457px;
+  height: 368px;
+}
+.editorsGraph {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+}
+.fimoreVerticalIcon {
+  position: absolute;
+  top: 14px;
+  left: 432px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.horizontalGridLines,
+.verticalGridLines {
+  position: absolute;
+  top: 0;
+  left: 49.5px;
+  width: 1px;
+  height: 290px;
+  object-fit: cover;
+}
+.horizontalGridLines {
+  top: 289.5px;
+  left: 50px;
+  width: 370px;
+  height: 1px;
+}
+.leftLabel534 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+}
+.leftLabel5341 {
+  position: absolute;
+  top: 72.5px;
+  width: 30px;
+}
+.leftLabel5341,
+.leftLabel5342,
+.leftLabel5343 {
+  left: 0;
+  display: inline-block;
+  height: 16px;
+}
+.leftLabel5342 {
+  position: absolute;
+  top: 145px;
+  width: 30px;
+}
+.leftLabel5343 {
+  top: 217.5px;
+}
+.leftLabel5343,
+.leftLabel5344,
+.leftLabels {
+  position: absolute;
+  width: 30px;
+}
+.leftLabel5344 {
+  top: 290px;
+  left: 0;
+  display: inline-block;
+  height: 16px;
+}
+.leftLabels {
+  top: -8px;
+  left: 10px;
+  height: 306px;
+}
+.bottomLabel534,
+.bottomLabel5341,
+.bottomLabel5342 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+}
+.bottomLabel5341,
+.bottomLabel5342 {
+  left: 52.86px;
+}
+.bottomLabel5342 {
+  left: 105.71px;
+}
+.bottomLabel5343,
+.bottomLabel5344,
+.bottomLabel5345,
+.bottomLabel5346 {
+  position: absolute;
+  top: 0;
+  left: 158.57px;
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+}
+.bottomLabel5344,
+.bottomLabel5345,
+.bottomLabel5346 {
+  left: 211.43px;
+}
+.bottomLabel5345,
+.bottomLabel5346 {
+  left: 264.29px;
+}
+.bottomLabel5346 {
+  left: 317.14px;
+}
+.bottomLabels {
+  position: absolute;
+  top: 295px;
+  left: 56.43px;
+  width: 357.14px;
+  height: 16px;
+  text-align: center;
+}
+.rect5340 {
+  position: absolute;
+  top: 195px;
+  left: 0;
+  background-color: var(--color-lightseagreen-100);
+  width: 42.86px;
+  height: 65px;
+}
+.rect53401,
+.rect53402,
+.rect53403 {
+  position: absolute;
+  top: 178.75px;
+  left: 52.86px;
+  background-color: var(--color-darkslategray-300);
+  width: 42.86px;
+  height: 81.25px;
+}
+.rect53402,
+.rect53403 {
+  top: 157.08px;
+  left: 105.71px;
+  height: 102.92px;
+}
+.rect53403 {
+  top: 0;
+  left: 158.57px;
+  background-color: var(--color-lightseagreen-100);
+  height: 260px;
+}
+.rect53404,
+.rect53405,
+.rect53406 {
+  position: absolute;
+  top: 243.75px;
+  left: 211.43px;
+  background-color: var(--color-darkslategray-300);
+  width: 42.86px;
+  height: 16.25px;
+}
+.rect53405,
+.rect53406 {
+  top: 48.75px;
+  left: 264.29px;
+  background-color: var(--color-lightseagreen-100);
+  height: 211.25px;
+}
+.rect53406 {
+  top: 211.25px;
+  left: 317.14px;
+  height: 48.75px;
+}
+.dataSeries,
+.series0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 260px;
+}
+.dataSeries {
+  top: 30px;
+  left: 55px;
+}
+.balance,
+.barchartFrame534 {
+  position: absolute;
+  top: 51px;
+  left: 18px;
+  width: 420px;
+  height: 320px;
+  text-align: right;
+  font-size: var(--font-size-3xs);
+  color: var(--color-slategray);
+  font-family: var(--font-inter);
+}
+.balance {
+  top: 279px;
+  left: 48px;
+  width: 457px;
+  height: 371px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

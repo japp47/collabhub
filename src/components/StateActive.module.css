@@ -1,0 +1,45 @@
+.fisendIcon,
+.stateactiveChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.stateactiveChild {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-darkslategray-300);
+}
+.fisendIcon {
+  width: 14.71%;
+  right: 85.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.transferFunds {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  font-weight: 600;
+}
+.label {
+  position: absolute;
+  height: 50%;
+  width: 42.5%;
+  top: 25%;
+  right: 28.75%;
+  bottom: 25%;
+  left: 28.75%;
+}
+.stateactive {
+  width: 320px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

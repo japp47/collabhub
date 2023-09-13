@@ -1,0 +1,38 @@
+.statedecreaseChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-pink);
+}
+.div {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-weight: 800;
+}
+.uarrowDownIcon {
+  position: absolute;
+  height: 62.5%;
+  width: 31.25%;
+  top: 18.75%;
+  right: 53.13%;
+  bottom: 18.75%;
+  left: 15.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.statedecrease {
+  width: 32px;
+  height: 16px;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--color-red);
+  font-family: var(--font-inter);
+}

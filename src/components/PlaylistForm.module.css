@@ -1,0 +1,50 @@
+.examplegmailcom {
+  position: relative;
+  font-weight: 500;
+}
+.input {
+  position: absolute;
+  top: 26.36px;
+  left: 0.47px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  width: 521.6px;
+  height: 43.64px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-2xl) var(--padding-mini)
+    var(--padding-11xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.playlist1,
+.playlistChild {
+  position: absolute;
+  top: 29.09px;
+  left: 0;
+  width: 288.34px;
+  height: 40px;
+}
+.playlist1 {
+  top: 0;
+  left: 0.47px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+  display: flex;
+  align-items: center;
+  width: 104.32px;
+  height: 19.09px;
+}
+.playlist {
+  position: relative;
+  width: 288.34px;
+  height: 69.09px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-poppins);
+}

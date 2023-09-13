@@ -1,0 +1,116 @@
+.video {
+  position: relative;
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-600);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.videoFile16 {
+  position: absolute;
+  top: 25.5px;
+  left: 84.5px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.videoFile16Wrapper {
+  position: absolute;
+  top: -11px;
+  left: -52px;
+  width: 286px;
+  height: 100px;
+}
+.tokyoNightMarket {
+  margin: 0;
+}
+.div,
+.moodyTraveller,
+.tokyoNightMarketContainer,
+.upload {
+  position: absolute;
+  top: 21px;
+  left: 102px;
+  font-weight: 600;
+}
+.div,
+.moodyTraveller,
+.upload {
+  top: 17px;
+  left: 951px;
+}
+.moodyTraveller,
+.upload {
+  top: 28px;
+  left: 662px;
+}
+.moodyTraveller {
+  left: 312px;
+}
+.frameChild {
+  position: relative;
+  width: 61px;
+  height: 36px;
+  object-fit: cover;
+}
+.pending {
+  position: relative;
+  font-weight: 600;
+}
+.frameParent {
+  position: absolute;
+  top: 21px;
+  left: 1241px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+}
+.item {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 77px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.body,
+.table {
+  border-right: 0.2px solid var(--color-darkslategray-700);
+  border-left: 0.2px solid var(--color-darkslategray-700);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 0.2px solid var(--color-darkslategray-700);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 954px;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}

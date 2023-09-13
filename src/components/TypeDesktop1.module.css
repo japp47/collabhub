@@ -1,0 +1,38 @@
+.googleIcon {
+  display: none;
+}
+.facebookIcon,
+.googleIcon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.signInWith,
+.typedesktop {
+  display: flex;
+  align-items: center;
+}
+.signInWith {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  width: 159px;
+  flex-shrink: 0;
+}
+.typedesktop {
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-4xs);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--secondary-text);
+  font-family: var(--font-roboto);
+  align-self: stretch;
+}

@@ -1,0 +1,67 @@
+.socialButtonsColumns {
+  width: 388px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.googleIcon {
+  position: relative;
+  width: 21px;
+  height: 22px;
+  object-fit: cover;
+}
+.signUpWith {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 23px;
+}
+.googleSignup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-59xl);
+  background-color: var(--primary-text);
+  border-radius: var(--br-6xl);
+  width: 450px;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.facebookIcon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.signUpWith1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  height: 22px;
+}
+.socialSignIn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}

@@ -1,0 +1,10 @@
+.image24 {
+  position: relative;
+  width: 100%;
+  height: 1288px;
+  background-image: url(/public/image-24@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: none;
+}

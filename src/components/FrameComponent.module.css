@@ -1,0 +1,34 @@
+.maskGroupIcon {
+  position: relative;
+  width: 51px;
+  height: 48px;
+  object-fit: cover;
+}
+.upload {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.maskGroupParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-59xl);
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 49px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #f49c0a, rgba(220, 199, 124, 0.99));
+  width: 175px;
+  height: 49px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}

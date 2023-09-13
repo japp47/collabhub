@@ -1,0 +1,171 @@
+.logo1Icon {
+  position: relative;
+  width: 301px;
+  height: 114px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+  z-index: 0;
+}
+.company,
+.faqs,
+.home,
+.pricing,
+.services {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+}
+.company,
+.faqs,
+.pricing,
+.services {
+  left: 80px;
+}
+.company,
+.faqs,
+.pricing {
+  left: 181px;
+}
+.company,
+.faqs {
+  left: 268px;
+}
+.faqs {
+  left: 375px;
+}
+.homeParent {
+  position: relative;
+  width: 414px;
+  height: 20px;
+  z-index: 1;
+}
+.howItWorks,
+.logIn {
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.logIn {
+  position: relative;
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+  height: 28px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.howItWorks {
+  position: absolute;
+  margin: 0 !important;
+  top: 13px;
+  left: 15px;
+  color: var(--color-darkslategray-400);
+  text-align: left;
+  display: none;
+  z-index: 1;
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-2xs);
+  background-color: var(--color-gainsboro-200);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.buttons,
+.loginButton,
+.signUp,
+.signupButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUp {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  width: 86px;
+  height: 19px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.buttons,
+.signupButton {
+  flex-direction: row;
+}
+.signupButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-2xs);
+  background-color: var(--color-gainsboro-200);
+  border-radius: var(--br-3xs);
+  width: 127px;
+  height: 42px;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.buttons {
+  width: 311.5px;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.iconlybulkcall {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 3;
+}
+.cloudwave,
+.vectorIcon {
+  position: relative;
+  display: none;
+}
+.vectorIcon {
+  width: 7.79px;
+  height: 7.79px;
+  object-fit: cover;
+}
+.cloudwave {
+  line-height: 20px;
+  font-weight: 600;
+}
+.cloudwaveLogo1svg {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 69.42px);
+  left: calc(50% - 658.5px);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 4;
+  font-size: var(--font-size-5xl);
+}
+.navbar {
+  position: absolute;
+  top: 29px;
+  left: 116px;
+  width: 1223px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-inter);
+}

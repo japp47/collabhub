@@ -1,0 +1,308 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 457px;
+  height: 368px;
+}
+.timeSpentGraph {
+  position: relative;
+}
+.timeSpentGraphWrapper {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.fimoreVerticalIcon {
+  position: absolute;
+  top: 14px;
+  left: 434px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle {
+  position: absolute;
+  top: 4.89px;
+  left: 0;
+  width: 415px;
+  height: 244.5px;
+}
+.xAxisGridIcon,
+.yAxisGridIcon {
+  position: absolute;
+  top: 4.89px;
+  left: 21.59px;
+  width: 0.81px;
+  height: 229.01px;
+  object-fit: cover;
+}
+.yAxisGridIcon {
+  top: 233.9px;
+  left: 22.41px;
+  width: 392.59px;
+  height: 0.82px;
+}
+.mon {
+  position: absolute;
+  top: 240.42px;
+  left: 20.75px;
+  display: inline-block;
+  width: 16.6px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.fri,
+.sat,
+.sun,
+.thur,
+.tue,
+.wed {
+  position: absolute;
+  top: 240.42px;
+  left: 81.2px;
+  display: inline-block;
+  width: 14.11px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.fri,
+.sat,
+.sun,
+.thur,
+.wed {
+  left: 144.97px;
+  width: 16.6px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.fri,
+.sat,
+.sun,
+.thur {
+  left: 210.41px;
+  width: 17.43px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.fri,
+.sat,
+.sun {
+  left: 279.16px;
+  width: 9.96px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.sat,
+.sun {
+  left: 343.76px;
+  width: 12.45px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.sun {
+  left: 406.42px;
+  width: 14.11px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 229.01px;
+  left: 9.13px;
+  text-align: right;
+  width: 4.98px;
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 183.37px;
+  left: 4.15px;
+  width: 9.96px;
+}
+.b2,
+.b3,
+.b4,
+.b5 {
+  top: 137.73px;
+}
+.b3,
+.b4,
+.b5 {
+  top: 92.09px;
+}
+.b4,
+.b5 {
+  top: 46.45px;
+  left: 0;
+  width: 14.11px;
+}
+.b5 {
+  top: 0;
+}
+.lineIcon,
+.lineIcon1 {
+  position: absolute;
+  top: 46.22px;
+  left: 22.14px;
+  width: 392.98px;
+  height: 157.3px;
+  object-fit: cover;
+}
+.lineIcon1 {
+  top: 79.27px;
+  left: 22.02px;
+  width: 393.33px;
+  height: 140.69px;
+}
+.markerIcon,
+.markerIcon1,
+.markerIcon2,
+.markerIcon3 {
+  position: absolute;
+  top: 199.67px;
+  left: 19.09px;
+  width: 6.64px;
+  height: 6.52px;
+  object-fit: cover;
+}
+.markerIcon1,
+.markerIcon2,
+.markerIcon3 {
+  top: 173.59px;
+  left: 83.83px;
+}
+.markerIcon2,
+.markerIcon3 {
+  top: 140.99px;
+  left: 149.4px;
+}
+.markerIcon3 {
+  top: 118.99px;
+  left: 214.97px;
+}
+.markerIcon4,
+.markerIcon5,
+.markerIcon6,
+.markerIcon7,
+.markerIcon8 {
+  position: absolute;
+  top: 89.65px;
+  left: 280.54px;
+  width: 6.64px;
+  height: 6.52px;
+  object-fit: cover;
+}
+.markerIcon5,
+.markerIcon6,
+.markerIcon7,
+.markerIcon8 {
+  top: 58.68px;
+  left: 346.11px;
+}
+.markerIcon6,
+.markerIcon7,
+.markerIcon8 {
+  top: 44.01px;
+  left: 411.68px;
+}
+.markerIcon7,
+.markerIcon8 {
+  top: 215.97px;
+  left: 19.09px;
+}
+.markerIcon8 {
+  top: 185px;
+  left: 83.83px;
+}
+.markerIcon10,
+.markerIcon11,
+.markerIcon12,
+.markerIcon13,
+.markerIcon9 {
+  position: absolute;
+  top: 166.26px;
+  left: 149.4px;
+  width: 6.64px;
+  height: 6.52px;
+  object-fit: cover;
+}
+.markerIcon10,
+.markerIcon11,
+.markerIcon12,
+.markerIcon13 {
+  top: 144.25px;
+  left: 214.97px;
+}
+.markerIcon11,
+.markerIcon12,
+.markerIcon13 {
+  top: 129.58px;
+  left: 280.54px;
+}
+.markerIcon12,
+.markerIcon13 {
+  top: 105.95px;
+  left: 346.11px;
+}
+.markerIcon13 {
+  top: 76.61px;
+  left: 411.68px;
+}
+.lineChart {
+  position: absolute;
+  top: 59px;
+  left: 18px;
+  width: 420.53px;
+  height: 260.42px;
+  text-align: center;
+  font-size: 8.15px;
+  color: var(--color-dimgray);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 457px;
+  height: 368px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
